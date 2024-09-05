@@ -16,8 +16,12 @@ header {
 section {
     margin: 20px;
     padding: 20px;
-    background-color: white;
+    background-color: #f9f9f9;
     border-radius: 8px;
+}
+
+#sobre-mim h2 { 
+    margin-top: 0;
 }
 
 footer {
