@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f5f5f5;
-    color: #750000;
+    color: #333;
 }
 
 header {
@@ -23,7 +23,7 @@ section {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #750000;
+    background-color: #4CAF50;
     color: white;
     position: fixed;
     width: 100%;
