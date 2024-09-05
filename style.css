@@ -30,4 +30,39 @@ footer {
     bottom: 0;
 }
 
+#projetos { display: flex;
+           justify-content: space-around; 
+           flex-wrap: wrap;
+           margin: 0 10px;
+          }
+
+.projeto {
+    background-color: white;
+    paddind: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1 1 300px;
+    text-align: center;
+}
+
+.btn-projeto {
+    background: linear-gradient(135deg, #ff69b4, #ff1493);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 10px;
+}
+
+@media (max-width: 798px) {
+    #projetos {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+
 
