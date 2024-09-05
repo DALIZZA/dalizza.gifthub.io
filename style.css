@@ -24,6 +24,10 @@ section {
     margin-top: 0;
 }
 
+#sobre-mim p {
+    margin-bottom: 10px;
+}
+    
 footer {
     background: linear-gradient(135deg, #ffb6c1, #ff69b4); /* Gradiente de rosa */
     color: white;  /* Texto branco para contraste */
