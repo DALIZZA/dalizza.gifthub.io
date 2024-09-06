@@ -65,6 +65,14 @@ section {
     border-radius: 50%;
 }
 
+footer {  background: linear-gradient(135deg, #ffb6c1, #ff69b4); /* Gradiente de rosa */
+    color: white;  /* Texto branco para contraste */
+    padding: 10px;
+    text-align: center;
+    position: fixed;  /* Fixa o footer na parte inferior */
+    width: 100%;
+    bottom: 0;
+}
 footer {
     background: linear-gradient(135deg, #ffb6c1, #ff69b4); /* Gradiente de rosa */
     color: white;  /* Texto branco para contraste */
