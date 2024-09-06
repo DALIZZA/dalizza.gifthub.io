@@ -45,7 +45,26 @@ section {
 #sobre-mim p {
     margin-bottom: 10px;
 }
-    
+
+.welcome-section {
+    display: felx;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.welcome-section h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.welcome-section .gif.welcome {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
 footer {
     background: linear-gradient(135deg, #ffb6c1, #ff69b4); /* Gradiente de rosa */
     color: white;  /* Texto branco para contraste */
